@@ -23,10 +23,10 @@ def print_movie(movie):
     year = movie.get("Year", "Unknown Year")
     ratings = movie.get("Ratings", "No ratings")
 
-    
+
     print(f"  Title : {title}")
     print(f"  Year  : {year}")
-    print(f"  Ratings: {rating_str}")
+    print(f"  Ratings: {ratings}")
     print()
 
 
